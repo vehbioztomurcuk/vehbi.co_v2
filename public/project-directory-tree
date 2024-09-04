@@ -1,0 +1,27 @@
+.
+├── app
+│   ├── blog
+│   │   └── [id]
+│   │       └── page.js
+│   ├── components
+│   │   ├── OyuneksLink.js
+│   │   └── ProfilePicture.js
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── public
+│   ├── fonts
+│   │   ├── Neufreit-ExtraBold.otf
+│   │   └── Neufreit-Regular.ttf
+│   ├── next.svg
+│   └── vercel.svg
+├── README.md
+└── tailwind.config.js
+
+7 directories, 18 files
