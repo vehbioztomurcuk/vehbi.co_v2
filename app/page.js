@@ -7,9 +7,6 @@ import OyuneksLink from './components/OyuneksLink';
 import ProfilePicture from './components/ProfilePicture';
 
 const blogPosts = [
-  { id: 1, title: "My Journey in Frontend Development", date: "2024-08-01" },
-  { id: 2, title: "Reflections on Digital Product Design", date: "2024-08-15" },
-  { id: 3, title: "The Intersection of Technology and Creativity", date: "2024-08-30" },
 ];
 
 export default function PortfolioPage() {
@@ -34,7 +31,7 @@ export default function PortfolioPage() {
         </div>
         <div className="bg-[#FFFFFF] p-2 shadow-[2px_2px_#000000] mb-3">
           <p className="mb-2 text-xs leading-relaxed">
-            Been crafting personal and corporate products since 2019. Recently started focusing on AI models and prompt engineering. I even edit videos and stream sometimes. Currently with <OyuneksLink />.
+            Been crafting personal and corporate products since 2019. Recently started focusing on AI models and prompt engineering. I even edit videos and stream sometimes. Currently <OyuneksLink />.
           </p>
         </div>
         <div className="bg-[#FFFFFF] p-2 shadow-[2px_2px_#000000] mb-3 text-xs">
@@ -65,11 +62,11 @@ export default function PortfolioPage() {
           <ul className="space-y-2">
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-blue-600">gpt-3.5-turbo/gpt-4</span>: <a href="https://studybuddy-ai.com/" className="text-blue-500">Study Buddy AI</a> is a neat tool that helps you with math problems, turns your notes into quizzes, and creates personalized study plans. If you&apos;re looking to ace that next test, this one&apos;s worth checking out.</span>
+              <span><span className="font-semibold text-blue-600">gpt-3.5-turbo/gpt-4</span>: <a href="https://studybuddy-ai.com/" className="text-blue-500">Study Buddy AI</a> is a neat tool that helps you with math problems, turns your notes into quizzes, and creates personalized study plans. If you're looking to ace that next test, this one's worth checking out.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-purple-600">claude</span>: <a href="https://mindgrasp.ai/" className="text-blue-500">Mindgrasp</a> is pretty cool if you&apos;re into automatic note-taking and flashcards. It even answers questions based on your documents, so it&apos;s like having a study buddy who&apos;s always ready.</span>
+              <span><span className="font-semibold text-purple-600">claude</span>: <a href="https://mindgrasp.ai/" className="text-blue-500">Mindgrasp</a> is pretty cool if you're into automatic note-taking and flashcards. It even answers questions based on your documents, so it's like having a study buddy who's always ready.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
@@ -77,11 +74,11 @@ export default function PortfolioPage() {
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-indigo-600">midjourney</span>: <a href="https://midjourney.com/" className="text-blue-500">MidJourney</a> isn&apos;t a study buddy, but it&apos;s an awesome AI for creating visual concepts if you&apos;re into design or creative projects.</span>
+              <span><span className="font-semibold text-indigo-600">midjourney</span>: <a href="https://midjourney.com/" className="text-blue-500">MidJourney</a> isn't a study buddy, but it's an awesome AI for creating visual concepts if you're into design or creative projects.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-orange-600">stable diffusion</span>: <a href="https://stablediffusionweb.com/" className="text-blue-500">Stable Diffusion</a> might be better for generating art, but if you&apos;re into visual representations of data, it could be a handy tool too.</span>
+              <span><span className="font-semibold text-orange-600">stable diffusion</span>: <a href="https://stablediffusionweb.com/" className="text-blue-500">Stable Diffusion</a> might be better for generating art, but if you're into visual representations of data, it could be a handy tool too.</span>
             </li>
           </ul>
         </div>
@@ -89,7 +86,7 @@ export default function PortfolioPage() {
 
       {/* Right side - Blog Posts */}
       <div className="w-1/2 p-4 bg-[#008080] text-[#FFFFFF] overflow-y-auto">
-        <h2 className="text-2xl font-bold mb-4 text-[#FF00FF]">My Blog Posts</h2>
+        <h2 className="text-2xl font-bold mb-4 text-[#FF00FF]"></h2>
         <ul className="mb-6">
           {blogPosts.map((post) => (
             <li key={post.id} className="mb-3 bg-[#C0C0C0] text-[#000000] p-2 shadow-[2px_2px_#00FF00]">
