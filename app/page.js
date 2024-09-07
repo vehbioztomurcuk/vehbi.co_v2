@@ -62,11 +62,11 @@ export default function PortfolioPage() {
           <ul className="space-y-2">
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-blue-600">gpt-3.5-turbo/gpt-4</span>: <a href="https://studybuddy-ai.com/" className="text-blue-500">Study Buddy AI</a> is a neat tool that helps you with math problems, turns your notes into quizzes, and creates personalized study plans. If you're looking to ace that next test, this one's worth checking out.</span>
+              <span><span className="font-semibold text-blue-600">gpt-3.5-turbo/gpt-4</span>: <a href="https://studybuddy-ai.com/" className="text-blue-500">Study Buddy AI</a> is a neat tool that helps you with math problems, turns your notes into quizzes, and creates personalized study plans. If you&apos;re looking to ace that next test, this one&apos;s worth checking out.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-purple-600">claude</span>: <a href="https://mindgrasp.ai/" className="text-blue-500">Mindgrasp</a> is pretty cool if you're into automatic note-taking and flashcards. It even answers questions based on your documents, so it's like having a study buddy who's always ready.</span>
+              <span><span className="font-semibold text-purple-600">claude</span>: <a href="https://mindgrasp.ai/" className="text-blue-500">Mindgrasp</a> is pretty cool if you&apos;re into automatic note-taking and flashcards. It even answers questions based on your documents, so it&apos;s like having a study buddy who&apos;s always ready.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
@@ -74,11 +74,11 @@ export default function PortfolioPage() {
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-indigo-600">midjourney</span>: <a href="https://midjourney.com/" className="text-blue-500">MidJourney</a> isn't a study buddy, but it's an awesome AI for creating visual concepts if you're into design or creative projects.</span>
+              <span><span className="font-semibold text-indigo-600">midjourney</span>: <a href="https://midjourney.com/" className="text-blue-500">MidJourney</a> isn&apos;t a study buddy, but it&apos;s an awesome AI for creating visual concepts if you&apos;re into design or creative projects.</span>
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-orange-600">stable diffusion</span>: <a href="https://stablediffusionweb.com/" className="text-blue-500">Stable Diffusion</a> might be better for generating art, but if you're into visual representations of data, it could be a handy tool too.</span>
+              <span><span className="font-semibold text-orange-600">stable diffusion</span>: <a href="https://stablediffusionweb.com/" className="text-blue-500">Stable Diffusion</a> might be better for generating art, but if you&apos;re into visual representations of data, it could be a handy tool too.</span>
             </li>
           </ul>
         </div>
