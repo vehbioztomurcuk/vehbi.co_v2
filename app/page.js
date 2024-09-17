@@ -49,7 +49,7 @@ export default function PortfolioPage() {
             <div className="flex gap-2">
               <a href="https://twitter.com/vehbioztomurcuk" target="_blank" rel="noopener noreferrer" className="flex items-center"><Twitter size={16} /></a>
               <a href="https://vsco.co/vehbi-oztomurcuk/" target="_blank" rel="noopener noreferrer" className="flex items-center"><Camera size={16} /></a>
-              <a href="https://www.twitch.tv/vehbltter/about" target="_blank" rel="noopener noreferrer" className="flex items-center"><Twitch size={16} /></a>
+              <a href="https://www.twitch.tv/Lbitter" target="_blank" rel="noopener noreferrer" className="flex items-center"><Twitch size={16} /></a>
               <a href="https://open.spotify.com/playlist/1oZIy4w6Rc4reO2PmftZgU" target="_blank" rel="noopener noreferrer" className="flex items-center"><Music size={16} /></a>
               <a href="https://imdb.com/list/ls022272921/" target="_blank" rel="noopener noreferrer" className="flex items-center"><Film size={16} /></a>
               <a href="https://medium.com/@vehbi.oztomurcuk" target="_blank" rel="noopener noreferrer" className="flex items-center"><BookOpen size={16} /></a>
