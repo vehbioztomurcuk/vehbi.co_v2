@@ -4,7 +4,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Newspaper, Mail, Linkedin, Github, Twitter, Camera, Twitch, Music, Film, BookOpen, Gitlab, Copy, Check } from 'lucide-react';
+import { Newspaper, Mail, Linkedin, Github, Twitter, Camera, Twitch, Music, Film, BookOpen, Gitlab, Copy, Check, Instagram } from 'lucide-react';
 import Link from 'next/link';
 import OyuneksLink from './components/OyuneksLink';
 import ProfilePicture from './components/ProfilePicture';
@@ -55,21 +55,12 @@ export default function PortfolioPage() {
               <a href="https://medium.com/@vehbi.oztomurcuk" target="_blank" rel="noopener noreferrer" className="flex items-center"><BookOpen size={16} /></a>
               <a href="https://github.com/vehbioztomurcuk" target="_blank" rel="noopener noreferrer" className="flex items-center"><Github size={16} /></a>
               <a href="https://gitlab.com/vehbi" target="_blank" rel="noopener noreferrer" className="flex items-center"><Gitlab size={16} /></a>
-              <a href="https://linkedin.com/in/vehbi-oztomurcuk-198037172/" target="_blank" rel="noopener noreferrer" className="flex items-center"><Linkedin size={16} /></a>
+              <a href="https://www.linkedin.com/in/vehbi-%C3%B6ztomurcuk-198037172/" target="_blank" rel="noopener noreferrer" className="flex items-center"><Linkedin size={16} /></a>
+              <a href="https://www.instagram.com/vehbitter/" target="_blank" rel="noopener noreferrer" className="flex items-center"><Instagram size={16} /></a>
             </div>
           </div>
         </div>
-        <div className="bg-[#FFFFFF] p-2 shadow-[2px_2px_#000000] mb-3 text-xs">
-          <h3 className="font-bold mb-1">prompt?</h3>
-          <ul className="space-y-2">
-            <li className="flex items-start">
-              <span className="mr-2 text-[#FF00FF]">&#9986;</span>
-              <span><span className="font-semibold text-blue-600">gpt-3.5-turbo/gpt-4</span>: <a href="https://studybuddy-ai.com/" className="text-blue-500">Study Buddy AI</a> is a neat tool that helps you with math problems, turns your notes into quizzes, and creates personalized study plans. If you're looking to ace that next test, this one's worth checking out.</span>
-            </li>
-            {/* More AI tools... */}
-          </ul>
-        </div>
-      </div>
+              </div>
 
       {/* Right side - Blog Posts */}
       <div className="md:w-1/2 w-full p-4 bg-[#008080] text-[#FFFFFF] overflow-y-auto">
